@@ -4004,6 +4004,16 @@ input[type=button].btn-block {
   line-height: inherit;
   white-space: nowrap;
 }
+.navbar-brand img{
+  width: 14%;
+  height: 7%;
+  border-radius: 50%;
+}
+.logo-divide-icon{
+  width: 6%;
+  height: 3%;
+  border-radius:50%;
+}
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
 }

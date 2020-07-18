@@ -60,7 +60,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -82,6 +82,7 @@ hr {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  font-family: 'Dancing Script', cursive;
 }
 
 p {
@@ -360,7 +361,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
   font-weight: 700;
   line-height: 1.2;
 }
@@ -2468,7 +2469,17 @@ a.btn.disabled,
 fieldset:disabled a.btn {
   pointer-events: none;
 }
-
+.btn-mas{
+  color: black;
+  border-radius: 10%;
+  background-color:#17a2b8;
+  box-shadow: 0 0 0 0.2rem rgba(60, 198, 171, 0.5);
+}
+.btn-mas:hover{
+  color: #fff;
+  background-color: #138496;
+  border-color: #117a8b;
+}
 .btn-primary {
   color: #fff;
   background-color: #ffcb74;
@@ -6105,7 +6116,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #ffcb74 !important;
+  background-color: #1abc9c !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10141,8 +10152,15 @@ h3 {
     font-size: 1.5em;
   }
 }
+.parallax{
+  background-image: url(../assets/img/productos/producto2.jpeg);
+  background-attachment: fixed;
+  background-repeat: round;
+  height: 400px;
+  padding-top: 30px;
+}
 .masthead {
-  padding-top: calc(6rem + 74px);
+  padding-top:140px;
   padding-bottom: 6rem;
 }
 .masthead .masthead-heading {
@@ -10158,7 +10176,7 @@ h3 {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
+    
     padding-bottom: 6rem;
   }
   .masthead .masthead-heading {

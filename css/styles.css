@@ -546,6 +546,7 @@ pre code {
   padding-left: 1.5rem;
   margin-right: auto;
   margin-left: auto;
+  line-height: 2.5rem;
 }
 @media (min-width: 576px) {
   .container {
@@ -5492,7 +5493,8 @@ a.close.disabled {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 50%;
+  margin-left: 300px;
   pointer-events: auto;
   background-color: #fff;
   background-clip: padding-box;
@@ -9971,6 +9973,7 @@ h3 {
 h3 {
     page-break-after: avoid;
   }
+ 
 
   @page {
     size: a3;
@@ -10170,13 +10173,10 @@ h3 {
 .masthead .masthead-subheading {
   font-size: 1.25rem;
 }
-.masthead .masthead-avatar {
-  width: 15rem;
-}
+
 
 @media (min-width: 992px) {
   .masthead {
-    
     padding-bottom: 6rem;
   }
   .masthead .masthead-heading {
